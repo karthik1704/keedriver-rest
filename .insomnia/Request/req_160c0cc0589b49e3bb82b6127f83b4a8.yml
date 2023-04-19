@@ -1,0 +1,28 @@
+_id: req_160c0cc0589b49e3bb82b6127f83b4a8
+type: Request
+parentId: fld_9e83e206ad1840f4b7cd872e4ae33b1b
+modified: 1681921817996
+created: 1681921649596
+url: "{{ _.base_url }}/api/v1/token/refresh/"
+name: RefreshToken
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"refresh":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY4MjAwNjAyNiwiaWF0IjoxNjgxOTE5NjI2LCJqdGkiOiIyNWU4OTI2OTlhMjI0NDBjYTk4Zjc0NTFiNjg2NGNlOSIsInVzZXJfaWQiOjF9.Ii3FqoOexT_3vLn4Uv-ktripvb4bNk2jP3cCW1U8Ieg"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1681919271115
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

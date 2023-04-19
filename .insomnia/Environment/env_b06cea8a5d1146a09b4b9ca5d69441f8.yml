@@ -1,0 +1,14 @@
+_id: env_b06cea8a5d1146a09b4b9ca5d69441f8
+type: Environment
+parentId: env_9fb9fbfa32e44bac6224923178d74d24ccbf96d4
+modified: 1681919528934
+created: 1681919496731
+name: keedrivers
+data:
+  base_url: http://localhost:8000
+dataPropertyOrder:
+  "&":
+    - base_url
+color: null
+isPrivate: false
+metaSortKey: 1681919496731
