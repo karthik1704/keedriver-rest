@@ -1,21 +1,24 @@
-_id: req_160c0cc0589b49e3bb82b6127f83b4a8
+_id: req_b21ac9f6ead14da998bc1db346fd1178
 type: Request
-parentId: fld_9e83e206ad1840f4b7cd872e4ae33b1b
-modified: 1681968646632
-created: 1681921649596
-url: "{{ _.base_url }}/api/v1/token/refresh/"
-name: RefreshToken
+parentId: fld_126a7ab0ecfe48a7b21bc6afc0f381bf
+modified: 1681970065107
+created: 1681969799344
+url: "{{ _.base_url }}/api/v1/trips/15/"
+name: ParitalUpdateTrips
 description: ""
-method: POST
+method: PATCH
 body:
   mimeType: application/json
-  text: ""
+  text: |-
+    {
+    			"amount_status": "PAID"
+    }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
 authentication: {}
-metaSortKey: -1681919271115
+metaSortKey: -1681968899159.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

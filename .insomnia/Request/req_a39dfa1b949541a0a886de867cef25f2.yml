@@ -1,0 +1,21 @@
+_id: req_a39dfa1b949541a0a886de867cef25f2
+type: Request
+parentId: fld_b89b697c4d4043ee9c8a10f1237b23f6
+modified: 1681970826354
+created: 1681970800815
+url: "{{ _.base_url }}/api/v1/triptypes/"
+name: GetTripTypes
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1681970800815
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

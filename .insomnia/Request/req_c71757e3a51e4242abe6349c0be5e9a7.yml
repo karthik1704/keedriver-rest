@@ -1,15 +1,34 @@
 _id: req_c71757e3a51e4242abe6349c0be5e9a7
 type: Request
 parentId: wrk_e35a6924716142ddba9095c933e58c8c
-modified: 1681921645449
+modified: 1682089265364
 created: 1681919141392
-url: ""
+url: https://www.api.naturesave.in/ItemSearch/
 name: New Request
 description: ""
-method: GET
-body: {}
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - name: |-
+        {
+        "Authorization": "afd3ba66be30296c9af47bb168eaed0a66eac12c",
+        "data_limit": "10",
+        "filter_values": {},
+        "item_category_id": "",
+        "item_sub_category_id": "42148",
+        "page_number": "1",
+        "price_values": [100, 1000000],
+        "search_values": "",
+        "sort_by": "1"
+        }
+      value: ""
 parameters: []
-headers: []
+headers:
+  - id: pair_02422ffd560f42da8f260e56b78988e8
+    name: Content-Type
+    value: application/x-www-form-urlencoded
+    description: ""
 authentication: {}
 metaSortKey: -1681919205318.5
 isPrivate: false

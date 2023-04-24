@@ -1,0 +1,41 @@
+_id: req_54928035f3104279a9d9fec89c6e1580
+type: Request
+parentId: fld_126a7ab0ecfe48a7b21bc6afc0f381bf
+modified: 1681970076643
+created: 1681969495919
+url: "{{ _.base_url }}/api/v1/trips/"
+name: CreateTrips
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	
+    			"alternate_phone_number": null,
+    			"trip_status": "ACTIVE",
+    			"pickup_location": null,
+    			"pickup_time": "2023-03-03T10:13:58+05:30",
+    			"drop_location": null,
+    			"drop_time": null,
+    			"landmark": null,
+    			"amount": null,
+    			"amount_status": "NOT PAID",
+    			"customer": 10,
+    			"driver": 4,
+    			"trip_type": 5,
+    			"pickup_area": 2
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1681968899173.5625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

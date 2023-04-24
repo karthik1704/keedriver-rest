@@ -1,0 +1,10 @@
+_id: fld_03d8e40d1a3f441791b8b57d3385d360
+type: RequestGroup
+parentId: wrk_e35a6924716142ddba9095c933e58c8c
+modified: 1681970778253
+created: 1681970778253
+name: TripTypes
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1681970778254

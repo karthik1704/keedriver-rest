@@ -1,12 +1,12 @@
-_id: req_160c0cc0589b49e3bb82b6127f83b4a8
+_id: req_f3ccd3f2f24e46ef959ce336c3d768e8
 type: Request
-parentId: fld_9e83e206ad1840f4b7cd872e4ae33b1b
-modified: 1681968646632
-created: 1681921649596
-url: "{{ _.base_url }}/api/v1/token/refresh/"
-name: RefreshToken
+parentId: fld_126a7ab0ecfe48a7b21bc6afc0f381bf
+modified: 1681971890116
+created: 1681971753401
+url: "{{ _.base_url }}/api/v1/trips/15/"
+name: RetrieveTrip
 description: ""
-method: POST
+method: GET
 body:
   mimeType: application/json
   text: ""
@@ -15,7 +15,7 @@ headers:
   - name: Content-Type
     value: application/json
 authentication: {}
-metaSortKey: -1681919271115
+metaSortKey: -1681968899170.0469
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

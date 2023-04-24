@@ -1,0 +1,21 @@
+_id: req_46031e5306a24b4cbf7879602bd244eb
+type: Request
+parentId: fld_126a7ab0ecfe48a7b21bc6afc0f381bf
+modified: 1681970052283
+created: 1681968899197
+url: "{{ _.base_url }}/api/v1/trips/"
+name: GetTrips
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1681968899197
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
