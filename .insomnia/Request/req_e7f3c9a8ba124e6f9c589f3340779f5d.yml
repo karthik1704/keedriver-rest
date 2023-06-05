@@ -1,26 +1,21 @@
-_id: req_ea37630f857e4630a441336a5f4c3fc2
+_id: req_e7f3c9a8ba124e6f9c589f3340779f5d
 type: Request
-parentId: fld_b89b697c4d4043ee9c8a10f1237b23f6
-modified: 1682526116928
-created: 1681971705366
-url: "{{ _.base_url }}/api/v1/triptypes/update/10/"
-name: UpdateTripTypes
+parentId: fld_de0cd628894e47488b8d7a7a4a3c9a3e
+modified: 1683522598315
+created: 1682663634379
+url: "{{ _.base_url }}/api/v1/cities/7/"
+name: RetrieveCity
 description: ""
-method: PUT
+method: GET
 body:
   mimeType: application/json
-  text: |-
-    {
-    	"parent_id":1,
-    	"name":"api4",
-    	"slug":"api4"
-    }
+  text: ""
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
 authentication: {}
-metaSortKey: -1681969849981
+metaSortKey: -1682659077904
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

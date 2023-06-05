@@ -1,17 +1,17 @@
-_id: req_46031e5306a24b4cbf7879602bd244eb
+_id: req_b4f2afe694b442d89c234968eccc5ad2
 type: Request
-parentId: fld_126a7ab0ecfe48a7b21bc6afc0f381bf
-modified: 1685976103237
-created: 1681968899197
-url: "{{ _.base_url }}/api/v1/trips/"
-name: GetTrips
+parentId: fld_de0cd628894e47488b8d7a7a4a3c9a3e
+modified: 1682663743794
+created: 1682659078004
+url: "{{ _.base_url }}/api/v1/cities/"
+name: GetCity
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1681968899197
+metaSortKey: -1682659078004
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

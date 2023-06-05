@@ -1,26 +1,24 @@
-_id: req_ea37630f857e4630a441336a5f4c3fc2
+_id: req_81bdceb1db1e4f129278419b07d9b583
 type: Request
-parentId: fld_b89b697c4d4043ee9c8a10f1237b23f6
-modified: 1682526116928
-created: 1681971705366
-url: "{{ _.base_url }}/api/v1/triptypes/update/10/"
-name: UpdateTripTypes
+parentId: fld_9e83e206ad1840f4b7cd872e4ae33b1b
+modified: 1683522672149
+created: 1683522645977
+url: "{{ _.base_url }}/api/v1/token/refresh/"
+name: RefreshToken
 description: ""
-method: PUT
+method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"parent_id":1,
-    	"name":"api4",
-    	"slug":"api4"
+    	"refresh":""
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
 authentication: {}
-metaSortKey: -1681969849981
+metaSortKey: -1681919238216.75
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

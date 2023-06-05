@@ -1,17 +1,17 @@
-_id: req_46031e5306a24b4cbf7879602bd244eb
+_id: req_68c6054c6f0e4b0392379e44ac88be8f
 type: Request
-parentId: fld_126a7ab0ecfe48a7b21bc6afc0f381bf
-modified: 1685976103237
-created: 1681968899197
-url: "{{ _.base_url }}/api/v1/trips/"
-name: GetTrips
+parentId: fld_1c94328f326c45fd8fdedde1717ce95f
+modified: 1682663963107
+created: 1682663772654
+url: "{{ _.base_url }}/api/v1/areas/"
+name: GetArea
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1681968899197
+metaSortKey: -1682659078004
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,26 +1,25 @@
-_id: req_ea37630f857e4630a441336a5f4c3fc2
+_id: req_3fa77b8e95a04a3f8b41ff752377d5b3
 type: Request
-parentId: fld_b89b697c4d4043ee9c8a10f1237b23f6
-modified: 1682526116928
-created: 1681971705366
-url: "{{ _.base_url }}/api/v1/triptypes/update/10/"
-name: UpdateTripTypes
+parentId: fld_1c94328f326c45fd8fdedde1717ce95f
+modified: 1682664842785
+created: 1682663772682
+url: "{{ _.base_url }}/api/v1/areas/7/"
+name: UpdateArea
 description: ""
 method: PUT
 body:
   mimeType: application/json
   text: |-
     {
-    	"parent_id":1,
-    	"name":"api4",
-    	"slug":"api4"
+    	"city":8,
+    	"name": "Rameswaram"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
 authentication: {}
-metaSortKey: -1681969849981
+metaSortKey: -1682659077854
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

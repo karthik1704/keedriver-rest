@@ -1,26 +1,21 @@
-_id: req_ea37630f857e4630a441336a5f4c3fc2
+_id: req_1c31d7d50f6b43e4b33f5ac5f605b06e
 type: Request
-parentId: fld_b89b697c4d4043ee9c8a10f1237b23f6
-modified: 1682526116928
-created: 1681971705366
-url: "{{ _.base_url }}/api/v1/triptypes/update/10/"
-name: UpdateTripTypes
+parentId: fld_1c94328f326c45fd8fdedde1717ce95f
+modified: 1682664849947
+created: 1682663772709
+url: "{{ _.base_url }}/api/v1/areas/7/"
+name: DeleteArea
 description: ""
-method: PUT
+method: DELETE
 body:
   mimeType: application/json
-  text: |-
-    {
-    	"parent_id":1,
-    	"name":"api4",
-    	"slug":"api4"
-    }
+  text: ""
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
 authentication: {}
-metaSortKey: -1681969849981
+metaSortKey: -1682659077804
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

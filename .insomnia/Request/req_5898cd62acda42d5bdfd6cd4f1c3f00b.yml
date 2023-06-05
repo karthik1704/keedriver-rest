@@ -1,7 +1,7 @@
 _id: req_5898cd62acda42d5bdfd6cd4f1c3f00b
 type: Request
 parentId: fld_9e83e206ad1840f4b7cd872e4ae33b1b
-modified: 1681921603783
+modified: 1685718296177
 created: 1681919271165
 url: "{{ _.base_url }}/api/v1/login/"
 name: Login
@@ -11,9 +11,9 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"username":"",
-    	"password": "",
-    	"phone":"9597828086"
+    	"username":"karthi",
+    	"password": "1234",
+    	"phone":""
     }
 parameters: []
 headers:

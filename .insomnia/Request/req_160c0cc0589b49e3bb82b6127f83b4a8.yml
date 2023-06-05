@@ -1,10 +1,10 @@
 _id: req_160c0cc0589b49e3bb82b6127f83b4a8
 type: Request
 parentId: fld_9e83e206ad1840f4b7cd872e4ae33b1b
-modified: 1681968646632
+modified: 1683522633067
 created: 1681921649596
 url: "{{ _.base_url }}/api/v1/token/refresh/"
-name: RefreshToken
+name: RefreshTokenWithCookie
 description: ""
 method: POST
 body:

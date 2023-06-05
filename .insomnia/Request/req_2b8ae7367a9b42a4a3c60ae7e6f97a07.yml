@@ -1,7 +1,7 @@
 _id: req_2b8ae7367a9b42a4a3c60ae7e6f97a07
 type: Request
 parentId: fld_b89b697c4d4043ee9c8a10f1237b23f6
-modified: 1681971381436
+modified: 1682433351357
 created: 1681971127068
 url: "{{ _.base_url }}/api/v1/triptypes/create/"
 name: CreateTripTypes
@@ -12,8 +12,8 @@ body:
   text: |-
     {
     	"parent_id":null,
-    	"name":"api",
-    	"slug":"api"
+    	"name":"api2",
+    	"slug":"api2"
     }
 parameters: []
 headers:
